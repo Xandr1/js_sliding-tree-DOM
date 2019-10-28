@@ -7,6 +7,7 @@ tree.addEventListener('click', function(targetEvent) {
     return;
   }
   const ulChild = event.target.parentNode.querySelector('ul');
+
   if (ulChild) {
     ulChild.hidden = !ulChild.hidden;
   }
